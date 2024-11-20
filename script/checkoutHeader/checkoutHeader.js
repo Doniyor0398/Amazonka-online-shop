@@ -10,7 +10,7 @@ export function renderCheckoutHeader() {
     let checkoutHeaderHTML = `
         <div class="header-content">
             <div class="checkout-header-left-section">
-                <a href="amazon.html">
+                <a href="index.html">
                     <img class="amazon-logo" src="images/amazon-logo.png" />
                     <img
                         class="amazon-mobile-logo"
@@ -22,7 +22,7 @@ export function renderCheckoutHeader() {
             <div class="checkout-header-middle-section">
                 Checkout (<a
                     class="return-to-home-link js-return-to-home-link"
-                    href="amazon.html"
+                    href="index.html"
                     >${cartQuantity} items</a
                 >)
             </div>
