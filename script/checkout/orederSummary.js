@@ -91,6 +91,7 @@ export function renderOrderSummary() {
                 </div>
         </div>`;
     });
+    document.querySelector(".js-order-summary").innerHTML = cartSummaryHTML;
 
     // !functin for delivery chekcout radio
     function deliveryOptionHTML(matchingProduct, cartItem) {
@@ -125,8 +126,6 @@ export function renderOrderSummary() {
         });
         return html;
     }
-
-    document.querySelector(".js-order-summary").innerHTML = cartSummaryHTML;
 
     //! REMOVE product in basket
     document.querySelectorAll(".js-delete-link").forEach((link) => {
